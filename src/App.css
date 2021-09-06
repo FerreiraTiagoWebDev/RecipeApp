@@ -1,0 +1,31 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.search-bar {
+  width:50%;
+  border:none;
+  padding: 10px;
+}
+.search-button {
+  background: lightcoral;
+  border:none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
